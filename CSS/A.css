@@ -1,0 +1,93 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    background-color: #2e4e64;
+     text-align: center;
+
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    background-color: #2a2f36;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px ;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background-color: #1c2a38;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: auto;
+    margin: auto;
+    
+}
+
+section{ 
+    background-color: rgb(0, 0, 0,0.3);
+    color: #ffffff; 
+    border: 20%;
+    border-radius: 20%;
+    border-color: aqua;
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.dropbtn {
+    background-color: #078aef;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    min-width: 320px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    z-index: 1;
+
+    grid-template-columns: repeat(4, 1fr); /* Esto no activa grid por sí solo */
+    gap: 10px;
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: grid;
+}
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: mediumpurple;
+    color: white;
+}
+
+#binario{
+    background-color: rgb(0, 0,0,0.3);
+    border-radius: 20%;
+}

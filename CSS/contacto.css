@@ -1,0 +1,43 @@
+body{
+    background-color:#2e4e64 ;
+    color:#f1f1f1; 
+}
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+    color: #E7EBDA;
+    background-color: #2a2f36;
+}
+
+section{
+    border-radius: 3px;
+    background-color: rgb(0, 0,0 ,0.3)
+    
+}
+
+label{
+    color:#a8c7ff; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color:#bfe7f9;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    background-color: 	#1c2a38;
+     font-family: 'Times New Roman', Times, serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px ;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}

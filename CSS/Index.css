@@ -1,0 +1,38 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    background-color: #2e4e64;
+     text-align: center;
+     background-image: url(Imagenes/fondo_error.png);
+
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    background-color: #2a2f36;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px ;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background-color: #1c2a38;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: auto;
+    margin: auto;
+    
+}
+section{
+    font-family: sans-serif;
+    
+}

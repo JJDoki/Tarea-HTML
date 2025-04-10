@@ -1,0 +1,118 @@
+.indice-horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #222;
+    padding: 12px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .indice-horizontal a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid red; 
+    animation: rgbBorder 3s infinite linear; 
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .indice-horizontal a:hover {
+    background-color: #444;
+    transform: scale(1.05);
+  }
+  
+  
+  @keyframes rgbBorder {
+    0%   { border-color: red; }
+    33%  { border-color: lime; }
+    66%  { border-color: blue; }
+    100% { border-color: red; }
+  }
+  
+  body{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    background-color: #2e4e64;
+     text-align: center;
+
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    background-color: #2a2f36;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px ;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background-color: #1c2a38;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: auto;
+    margin: auto;
+    
+}
+
+
+.galeria {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+
+  .galeria::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  .galeria::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 10px;
+  }
+
+  .foto {
+    min-width: 80px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .foto img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+
+  .foto img:hover {
+    transform: scale(1.8); /* agranda la imagen */
+  }
+
+  .titulo {
+    margin-top: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #333;
+  }
