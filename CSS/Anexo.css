@@ -110,7 +110,7 @@ footer{
   }
 
   .foto img:hover {
-    transform: scale(1.8); /* agranda la imagen */
+    transform: scale(0.8); /* agranda la imagen */
   }
 
   .titulo {
