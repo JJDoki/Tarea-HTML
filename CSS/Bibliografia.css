@@ -17,6 +17,7 @@ section{
 footer{
     background-color: 	#1c2a38;
      font-family: 'Times New Roman', Times, serif;
+     position: absolute;
 }
 nav ul {
     list-style: none;
