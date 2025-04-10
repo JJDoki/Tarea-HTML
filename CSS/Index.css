@@ -30,6 +30,9 @@ footer{
     color: whitesmoke;
     padding: auto;
     margin: auto;
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
     
 }
 section{

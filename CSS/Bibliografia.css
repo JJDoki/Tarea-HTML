@@ -18,6 +18,8 @@ footer{
     background-color: 	#1c2a38;
      font-family: 'Times New Roman', Times, serif;
      position: absolute;
+     bottom: 0; 
+    width: 100%;
 }
 nav ul {
     list-style: none;
